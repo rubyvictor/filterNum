@@ -4,6 +4,11 @@
   "main": "index.js",
   "author": "Victor Lee <myleevictor@gmail.com>",
   "license": "MIT",
+  "scripts": {
+"test": "jest",
+"test:watch": "jest --watch",
+"test:coverage": "jest --coverage"
+  },
   "devDependencies": {
     "jest": "^22.4.2"
   }
