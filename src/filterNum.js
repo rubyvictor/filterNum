@@ -1,10 +1,4 @@
-function Num(elem) {
-  return parseInt(elem) === elem;
-}
-
-function filterNum(arr) {
-  var filtered = arr.filter(Num);
-  return filtered;
-}
+const filterNum = arr => arr.filter(isNumber);
+const isNumber = element => typeof element === "number";
 
 module.exports = filterNum;
